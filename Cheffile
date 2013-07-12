@@ -1,0 +1,15 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'java'
+
+cookbook 'germinator_base', 
+	:git => 'git://github.com/johnlcox/germinator.git',
+	:path => './germinator_base'
+
+cookbook 'germinator_linux_apps', 
+	:git => 'git://github.com/johnlcox/germinator.git',
+	:path => './germinator_linux_apps'
+
+cookbook 'germinator_ubuntu_base', 
+	:git => 'git://github.com/johnlcox/germinator.git',
+	:path => './germinator_ubuntu_base'
