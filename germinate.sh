@@ -47,7 +47,7 @@ if [[ -d my-germinator ]]; then
   cd my-germinator && git pull
 else
   git clone https://github.com/johnlcox/my-germinator.git
-  cd my-germinator && git checkout dev
+  cd my-germinator && git checkout master
 fi
 
 # Bundle and execute soloist
