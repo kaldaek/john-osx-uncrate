@@ -1,4 +1,5 @@
 recipes:
+- germinator_base
 - germinator_ubuntu_base
 - germinator_linux_apps::openjdk
 - germinator_linux_apps::oraclejdk
@@ -8,3 +9,6 @@ recipes:
 - germinator_linux_apps::mongodb
 - germinator_linux_apps::vim
 - germinator_linux_apps::oh_my_zsh
+node_attributes:
+  germinator:
+    current_user: johnlcox
