@@ -4,12 +4,15 @@ cookbook 'java'
 
 cookbook 'germinator_base', 
 	:git => 'git://github.com/johnlcox/germinator.git',
+	:ref => 'dev'
 	:path => './germinator_base'
 
 cookbook 'germinator_linux_apps', 
 	:git => 'git://github.com/johnlcox/germinator.git',
+	:ref => 'dev'
 	:path => './germinator_linux_apps'
 
 cookbook 'germinator_ubuntu_base', 
 	:git => 'git://github.com/johnlcox/germinator.git',
+	:ref => 'dev'
 	:path => './germinator_ubuntu_base'
