@@ -9,6 +9,7 @@ recipes:
 - germinator_linux_apps::mongodb
 - germinator_linux_apps::vim
 - germinator_linux_apps::oh_my_zsh
+- germinator_linux_apps::sublime_text
 node_attributes:
   germinator:
     current_user: johnlcox
