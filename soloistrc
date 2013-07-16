@@ -10,6 +10,7 @@ recipes:
 - germinator_linux_apps::vim
 - germinator_linux_apps::oh_my_zsh
 - germinator_linux_apps::sublime_text
+- germinator_linux_apps::chrome
 node_attributes:
   germinator:
     current_user: johnlcox
