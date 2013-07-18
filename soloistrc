@@ -3,6 +3,7 @@ recipes:
 - germinator_ubuntu_base
 - germinator_linux_apps::openjdk
 - germinator_linux_apps::oraclejdk
+- germinator_linux_apps::scala
 - germinator_linux_apps::maven3
 - germinator_linux_apps::intellij_community_edition
 - germinator_linux_apps::kdiff3
