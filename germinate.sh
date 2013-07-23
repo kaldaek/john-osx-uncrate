@@ -45,9 +45,10 @@ gem install bundler
 
 if [[ -d my-germinator ]]; then
   cd my-germinator && git pull
+  git checkout dev
 else
   git clone https://github.com/johnlcox/my-germinator.git
-  cd my-germinator && git checkout master
+  cd my-germinator && git checkout dev
 fi
 
 # Bundle and execute soloist
