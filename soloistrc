@@ -12,6 +12,11 @@ recipes:
 - germinator_linux_apps::oh_my_zsh
 - germinator_linux_apps::sublime_text
 - germinator_linux_apps::chrome
+- germinator_linux_apps::androidsdk
 node_attributes:
   germinator:
     current_user: johnlcox
+  android_sdk:
+  	versions: [17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+  	include_source: true
+  	extras: [extra-google-google_play_services]
