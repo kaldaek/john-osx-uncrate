@@ -13,6 +13,7 @@ recipes:
 - germinator_linux_apps::sublime_text
 - germinator_linux_apps::chrome
 - germinator_linux_apps::androidsdk
+- germinator_linux_apps::cinnamon
 node_attributes:
   germinator:
     current_user: johnlcox
