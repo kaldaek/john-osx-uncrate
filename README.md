@@ -1,3 +1,3 @@
 # my-uncrate
 
-`wget -O - https://raw.github.com/johnlcox/my-uncrate/dev/uncrate.sh | bash`
+`wget -O - https://raw.github.com/uncrate/my-uncrate/dev/uncrate.sh | bash`
