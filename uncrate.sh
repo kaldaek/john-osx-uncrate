@@ -19,6 +19,8 @@ if [ "$(whoami)" = "root" ]; then
 	exit 1
 fi
 
+USER=$(whoami)
+
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get -q -y install build-essential git-core curl
@@ -43,12 +45,16 @@ rvm --default use 1.9.3
 echo -e "Installing bundler"
 gem install bundler
 
-if [[ -d my-germinator ]]; then
-  cd my-germinator && git pull
+export UNCRATE_HOME=/opt/uncrate
+sudo mkdir -p $UNCRATE_HOME
+sudo chown $USER:$USER $UNCRATE_HOME
+
+if [[ -d my-uncrate ]]; then
+  cd UNCRATE_HOME/repo && git pull
   git checkout dev
 else
-  git clone https://github.com/johnlcox/my-germinator.git
-  cd my-germinator && git checkout dev
+  git clone https://github.com/uncrate/my-uncrate.git $UNCRATE_HOME/repo
+  cd $UNCRATE_HOME/repo && git checkout dev
 fi
 
 # Bundle and execute soloist

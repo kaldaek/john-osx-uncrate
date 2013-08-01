@@ -1,24 +1,8 @@
 recipes:
-- germinator_base
-- germinator_ubuntu_base
-- germinator_linux_apps::openjdk
-- germinator_linux_apps::oraclejdk
-- germinator_linux_apps::scala
-- germinator_linux_apps::maven3
-- germinator_linux_apps::intellij_community_edition
-- germinator_linux_apps::kdiff3
-- germinator_linux_apps::mongodb
-- germinator_linux_apps::vim
-- germinator_linux_apps::oh_my_zsh
-- germinator_linux_apps::sublime_text
-- germinator_linux_apps::chrome
-- germinator_linux_apps::androidsdk
-- germinator_linux_apps::cinnamon
-- germinator_linux_apps::play_framework
+- uncrate_base
+- uncrate_ubuntu_base
+- uncrate_linux_apps::openjdk
+- uncrate_linux_apps::maven3
 node_attributes:
-  germinator:
-    current_user: johnlcox
-  android_sdk:
-    versions: [18]
-    include_source: true
-    extras: [extra-google-google_play_services]
+  uncrate:
+    user: johnlcox

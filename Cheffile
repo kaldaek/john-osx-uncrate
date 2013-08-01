@@ -5,17 +5,17 @@ cookbook 'java'
 cookbook 'maven_temp', 
 	:git => 'git://github.com/johnlcox/maven_temp.git'
 
-cookbook 'germinator_base', 
-	:git => 'git://github.com/johnlcox/germinator.git',
+cookbook 'uncrate_base', 
+	:git => 'git://github.com/uncrate/uncrate.git',
 	:ref => 'dev',
-	:path => './germinator_base'
+	:path => './uncrate_base'
 
-cookbook 'germinator_linux_apps', 
-	:git => 'git://github.com/johnlcox/germinator.git',
+cookbook 'uncrate_linux_apps', 
+	:git => 'git://github.com/uncrate/uncrate.git',
 	:ref => 'dev',
-	:path => './germinator_linux_apps'
+	:path => './uncrate_linux_apps'
 
-cookbook 'germinator_ubuntu_base', 
-	:git => 'git://github.com/johnlcox/germinator.git',
+cookbook 'uncrate_ubuntu_base', 
+	:git => 'git://github.com/uncrate/uncrate.git',
 	:ref => 'dev',
-	:path => './germinator_ubuntu_base'
+	:path => './uncrate_ubuntu_base'
