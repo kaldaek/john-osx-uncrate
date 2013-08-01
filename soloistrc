@@ -19,6 +19,6 @@ node_attributes:
   germinator:
     current_user: johnlcox
   android_sdk:
-    versions: [18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7]
+    versions: [18]
     include_source: true
     extras: [extra-google-google_play_services]
