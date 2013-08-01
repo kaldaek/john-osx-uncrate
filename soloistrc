@@ -14,6 +14,7 @@ recipes:
 - germinator_linux_apps::chrome
 - germinator_linux_apps::androidsdk
 - germinator_linux_apps::cinnamon
+- germinator_linux_apps::play_framework
 node_attributes:
   germinator:
     current_user: johnlcox
