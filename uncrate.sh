@@ -45,6 +45,7 @@ rvm --default use 1.9.3
 echo -e "Installing bundler"
 gem install bundler
 
+echo -e "Creating $UNCRATE_HOME directory"
 export UNCRATE_HOME=/opt/uncrate
 sudo mkdir -p $UNCRATE_HOME
 sudo chown $USER:$USER $UNCRATE_HOME
