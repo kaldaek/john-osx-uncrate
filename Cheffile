@@ -1,21 +1,30 @@
 site 'http://community.opscode.com/api/v1'
 
+def github(name, version, options = nil)
+  options ||= {}
+  options[:git] ||= 'git://github.com/#{name}.git'
+  options[:ref] ||= version
+  cookbook name, options
+end
+
 cookbook 'java'
 
 cookbook 'maven_temp', 
-	:git => 'git://github.com/johnlcox/maven_temp.git'
+  :git => 'git://github.com/johnlcox/maven_temp.git'
 
 cookbook 'uncrate_base', 
-	:git => 'git://github.com/uncrate/uncrate.git',
-	:ref => 'dev',
-	:path => './uncrate_base'
-
-cookbook 'uncrate_linux_apps', 
-	:git => 'git://github.com/uncrate/uncrate.git',
-	:ref => 'dev',
-	:path => './uncrate_linux_apps'
+  :git => 'git://github.com/uncrate/uncrate.git',
+  :ref => 'dev',
+  :path => './uncrate_base'
 
 cookbook 'uncrate_ubuntu_base', 
-	:git => 'git://github.com/uncrate/uncrate.git',
-	:ref => 'dev',
-	:path => './uncrate_ubuntu_base'
+  :git => 'git://github.com/uncrate/uncrate.git',
+  :ref => 'dev',
+  :path => './uncrate_ubuntu_base'
+
+cookbook 'uncrate_linux_apps', 
+  :git => 'git://github.com/uncrate/uncrate.git',
+  :ref => 'dev',
+  :path => './uncrate_linux_apps'
+
+github "uncrate/vim-crate", "dev"
