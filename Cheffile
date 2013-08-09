@@ -27,4 +27,4 @@ cookbook 'uncrate_linux_apps',
   :ref => 'dev',
   :path => './uncrate_linux_apps'
 
-github "uncrate/vim-crate", "dev"
+github "uncrate/vim-crate", "master"
