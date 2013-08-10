@@ -17,11 +17,6 @@ cookbook 'uncrate_base',
   :ref => 'dev',
   :path => './uncrate_base'
 
-cookbook 'uncrate_ubuntu_base', 
-  :git => 'git://github.com/uncrate/uncrate.git',
-  :ref => 'dev',
-  :path => './uncrate_ubuntu_base'
-
 cookbook 'uncrate_linux_apps', 
   :git => 'git://github.com/uncrate/uncrate.git',
   :ref => 'dev',
