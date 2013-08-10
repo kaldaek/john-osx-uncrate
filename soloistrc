@@ -3,7 +3,7 @@ recipes:
 - uncrate_ubuntu_base
 - uncrate_linux_apps::openjdk
 - uncrate_linux_apps::maven3
-- vim-uncrate
+- vim-crate
 node_attributes:
   uncrate:
     user: johnlcox
