@@ -1,6 +1,5 @@
 recipes:
 - uncrate_base
-- uncrate_ubuntu_base
 - uncrate_linux_apps::openjdk
 - uncrate_linux_apps::maven3
 - vim-crate
