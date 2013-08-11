@@ -1,6 +1,7 @@
 recipes:
 - uncrate_base
-- uncrate_linux_apps::openjdk
+- java-crate::oraclejdk
+- java-crate::openjdk
 - uncrate_linux_apps::maven3
 - vim-crate
 - chrome-crate
