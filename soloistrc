@@ -3,6 +3,7 @@ recipes:
 - uncrate_linux_apps::openjdk
 - uncrate_linux_apps::maven3
 - vim-crate
+- chrome-crate
 node_attributes:
   uncrate:
     user: johnlcox
