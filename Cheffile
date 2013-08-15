@@ -25,3 +25,4 @@ cookbook 'uncrate_linux_apps',
 github "vim-crate", "master"
 github "chrome-crate", "master"
 github "java-crate", "master"
+github "sublime_text-crate", "master"
