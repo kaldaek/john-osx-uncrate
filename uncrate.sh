@@ -59,6 +59,6 @@ else
 fi
 
 # Bundle and execute soloist
-echo -e "Running soloist"
-bundle
-bundle exec soloist
+# echo -e "Running soloist"
+# bundle
+# bundle exec soloist
