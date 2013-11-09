@@ -3,4 +3,4 @@ recipes:
 - sublime_text-crate
 node_attributes:
   uncrate:
-    user: # Add your username here
+    user: johnlcox

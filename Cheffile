@@ -14,5 +14,4 @@ cookbook 'uncrate_base',
   :ref => 'dev',
   :path => './uncrate_base'
 
-# Add Uncrate dependencies here
 github "sublime_text-crate", "master"
