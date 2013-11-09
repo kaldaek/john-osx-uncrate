@@ -3,15 +3,18 @@
 ## Dependencies
 
 ### Mac OS X
+
 * Install Xcode from the App Store
 * Install Xcode Command Line Tools
 * Install ruby (Only tested using RVM with ruby 1.9.3)
 
 ### Ubuntu
+
 * Install git
 * Install ruby (Only tested using RVM with ruby 1.9.3)
 
 ## Setup
+
 Create a new repository to store your uncrate configuration.  Use `my-uncrate` as a skeleton for your own uncrate setup using the following steps:
 
 ``` shell
@@ -33,9 +36,11 @@ Source the uncrate environment in your `~/.bashrc` or `~/.zshrc` by adding the f
 ```
 
 ### Customization
+
 The recipes that are run can be customized using the `soloistrc` and `Cheffile` files.  The `Cheffile` defines the location of each of the cookbooks needed to run your recipes.  In `soloistrc` you define each recipe to run and can set/override the recipe attributes.
 
 #### Including Cookbooks
+
 Add the cookbooks you want to include to the Cheffile located in the uncrate repo (/opt/uncrate/repo/Cheffile):
 
 ```
@@ -50,6 +55,7 @@ cookbook 'some-crate',
 ```
 
 #### Including Recipes and Configuring Attributes
+
 Add the recipes you want to run and configure any attributes in the soloistrc file located in the uncrate repo (/opt/uncrate/repo/soloistrc):
 
 ```
@@ -62,4 +68,12 @@ node_attributes:
     user: johnlcox # use your OS username
   intellij:
     install_flaver: intellij_community_edition
+```
+
+## Running it
+
+Once you have all of the recipes configured it's time to run uncrate and let it install all of your apps. Make sure all of your customizations are commited and pushed to the remote origin. Running it is as simple as running the uncrate shell script. The shell script will make sure the repo is the up to date from origin (reseting any uncommited changes).
+
+```
+script/uncrate
 ```
