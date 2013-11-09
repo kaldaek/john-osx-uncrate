@@ -1,5 +1,7 @@
 # my-uncrate
 
+This is a skeleton project to be cloned and configured for your own setup. Clonet his repo and follow the instructions to get your automated installs up and running.
+
 ## Dependencies
 
 ### Mac OS X
@@ -15,7 +17,7 @@
 
 ## Setup
 
-Create a new repository to store your uncrate configuration.  Use `my-uncrate` as a skeleton for your own uncrate setup using the following steps:
+Create a new repository to store your uncrate configuration. Use `my-uncrate` as a skeleton for your own uncrate setup using the following steps:
 
 ``` shell
 sudo mkdir -p /opt/uncrate
@@ -37,7 +39,7 @@ Source the uncrate environment in your `~/.bashrc` or `~/.zshrc` by adding the f
 
 ### Customization
 
-The recipes that are run can be customized using the `soloistrc` and `Cheffile` files.  The `Cheffile` defines the location of each of the cookbooks needed to run your recipes.  In `soloistrc` you define each recipe to run and can set/override the recipe attributes.
+The recipes that are run can be customized using the `soloistrc` and `Cheffile` files. The `Cheffile` defines the location of each of the cookbooks needed to run your recipes. In `soloistrc` you define each recipe to run and can set/override the recipe attributes.
 
 #### Including Cookbooks
 
