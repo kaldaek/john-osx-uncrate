@@ -17,3 +17,4 @@ cookbook 'uncrate_base',
 github "sublime_text-crate", "master"
 github "java-crate", "mac"
 github "intellij-crate", "dev"
+github "kdiff3-crate", "mac"
