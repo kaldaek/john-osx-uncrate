@@ -5,6 +5,7 @@ recipes:
 - intellij-crate
 - kdiff3-crate
 - scala-crate
+- chrome-crate
 node_attributes:
   uncrate:
     user: johnlcox
