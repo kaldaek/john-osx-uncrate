@@ -8,8 +8,8 @@ recipes:
 - chrome-crate
 node_attributes:
   uncrate:
-    user: johnlcox
+    user: jl017725
   java:
-    jdk_versions: ['7', '6']
+    jdk_versions: ['6']
     oracle:
       accept_oracle_download_terms: true
