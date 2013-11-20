@@ -6,6 +6,8 @@ recipes:
 - kdiff3-crate
 - scala-crate
 - chrome-crate
+- oh_my_zsh-crate
+- tomcat-crate
 node_attributes:
   uncrate:
     user: jl017725
