@@ -8,6 +8,7 @@ recipes:
 - chrome-crate
 - oh_my_zsh-crate
 - tomcat-crate
+- sbt-crate
 node_attributes:
   uncrate:
     user: jl017725
