@@ -20,3 +20,4 @@ doc/
 Cheffile.lock
 Gemfile.lock
 cookbooks
+target

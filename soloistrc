@@ -9,6 +9,7 @@ recipes:
 - oh_my_zsh-crate
 - tomcat-crate
 - sbt-crate
+- play_framework-crate
 node_attributes:
   uncrate:
     user: jl017725
