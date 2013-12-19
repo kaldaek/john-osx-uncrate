@@ -1,19 +1,6 @@
 recipes:
 - uncrate_base
-- sublime_text-crate
-- java-crate
-- intellij-crate
-- kdiff3-crate
-- scala-crate
-- chrome-crate
-- oh_my_zsh-crate
-- tomcat-crate
-- sbt-crate
-- play_framework-crate
+- maven-crate
 node_attributes:
   uncrate:
-    user: jl017725
-  java:
-    jdk_versions: ['6']
-    oracle:
-      accept_oracle_download_terms: true
+    user: am019382

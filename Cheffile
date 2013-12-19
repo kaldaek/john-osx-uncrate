@@ -14,6 +14,10 @@ cookbook 'uncrate_base',
   :ref => 'dev',
   :path => './uncrate_base'
 
+cookbook 'uncrate_base', 
+  :git => 'https://github.com/kaldaek/maven-crate.git',
+  :ref => 'master'
+  
 github "sublime_text-crate", "master"
 github "java-crate", "mac"
 github "intellij-crate", "dev"
